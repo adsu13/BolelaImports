@@ -16,8 +16,9 @@ function App() {
     <div className="App">
         <Headers/>
       <Carousell/>
-        <Slide/>
+        
         <Promotions/>
+        <Slide/>
     </div>
   )
 }

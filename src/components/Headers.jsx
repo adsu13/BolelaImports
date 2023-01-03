@@ -20,20 +20,14 @@ const Headers = (props) => {
                 <NavbarToggler onClick={toggle}/>
                 <Collapse isOpen={isOpen} className="justify-content-center" navbar>
                     <Nav className="justify-content-center fs-6" navbar>
-                        <NavItem>
-                            <NavLink href="#">Instagram</NavLink>
+                        <NavItem>                               
+                        
                         </NavItem>
-                        <NavItem>
-                            <NavLink href="#">Catálogo de Produtos</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#">Promoções</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#">Contato</NavLink>
-                        </NavItem>
+                       
                     </Nav>
+               
                 </Collapse>
+                
             </Navbar>
         </div>
     );
